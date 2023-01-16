@@ -11,7 +11,7 @@ public class ReverseString
 
         String reverseStr = "";
 
-        for (int i=str.lenght(); i>0; i--)
+        for (int i=str.length()-1; i>=0; i--)
         {
             reverseStr = reverseStr + str.charAt(i);
         }
